@@ -49,8 +49,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       - wpscan --url http://192.168.1.110/wordpress/ --enumerate u
   - `flag2.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_2.png "Flag 2")   
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - Used SSH to gain a user shell via the user profile found via the User Enumeration performed to find Flag 1. Found Flag 2 under Micahel's profile in the var/www directory.
+      - ssh Michael@192.168.1.110
   - `flag3.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_3.png "Flag 3")    
     - **Exploit Used**
       - _TODO: Identify the exploit used_
