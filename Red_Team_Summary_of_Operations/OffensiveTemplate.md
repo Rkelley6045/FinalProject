@@ -6,7 +6,6 @@
 - Exploitation
 
 ### Exposed Services
-_TODO: Fill out the information below._
 
 Nmap scan results for each machine reveal the below services and OS details:
 
@@ -21,7 +20,6 @@ This scan identifies the services below as potential points of entry:
   - 139/TCP netbios-ssn
   - 445/TCP netbios-ssn
 
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
 
 The following vulnerabilities were identified on each target:
 - Target 1
@@ -30,16 +28,12 @@ The following vulnerabilities were identified on each target:
   - Usernmae/Password Login Scanner 
   - XMLRPC DoS 
   - GHOST Vulnerability Scanner
-  
-
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
 ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/WPScan/WPscan_vuln.png "WPscan vulnerabilities")
 
 ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/WPScan/WPscan_users.png "WPscan users")
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
