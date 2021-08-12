@@ -34,6 +34,10 @@ The following vulnerabilities were identified on each target:
 
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
+(https://github.com/Rkelley6045/FinalProject/blob/main/WPScan/WPscan_vuln.png "WPscan vulnerabilities")
+
+(https://github.com/Rkelley6045/FinalProject/blob/main/WPScan/WPscan_users.png "WPscan users")
+
 ### Exploitation
 _TODO: Fill out the details below. Include screenshots where possible._
 
