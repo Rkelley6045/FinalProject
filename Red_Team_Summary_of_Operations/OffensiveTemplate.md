@@ -45,8 +45,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 - Target 1
   - `flag1.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_1.png "Flag 1")    
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - User Enumeration exploit used to scan the WordPress web application to discover usernames of the WordPress site
+      - wpscan --url http://192.168.1.110/wordpress/ --enumerate u
   - `flag2.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_2.png "Flag 2")   
     - **Exploit Used**
       - _TODO: Identify the exploit used_
