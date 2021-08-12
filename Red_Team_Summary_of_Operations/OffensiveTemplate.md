@@ -39,19 +39,19 @@ _TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
+  - `flag1.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_1.png "Flag 1")    
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
-  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
+  - `flag2.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_2.png "Flag 2")   
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
-  - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
+  - `flag3.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_3.png "Flag 3")    
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
-  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
+  - `flag4.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_4.png "Flag 4")    
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
