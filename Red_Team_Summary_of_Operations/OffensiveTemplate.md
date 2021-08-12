@@ -60,7 +60,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       - Command run: use wordpress;
       - Command run: show tables;
       - Command run: select * from wp_posts;
-  - `flag4.txt`: ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_4.png "Flag 4")    
+  - `flag4.txt`: 
+  - ![alt text](https://github.com/Rkelley6045/FinalProject/blob/main/Flags/Flag_4.png "Flag 4")    
     - **Exploit Used**
       - Accessed the WordPress database to abstract the user pw hashes (wp_users table) for both users (Michael and Steven). Exfiltrated the password hashes and ran them agains the password cracker John. 
       - Command run: use wordpress;      
