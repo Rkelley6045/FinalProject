@@ -14,16 +14,23 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 This scan identifies the services below as potential points of entry:
 - Target 1
-  - List of
-  - Exposed Services
+  - List of Exposed Servies: 
+  - 22/TCP SSH
+  - 80/TCP HTTP
+  - 111/TCP rpcbind
+  - 139/TCP netbios-ssn
+  - 445/TCP netbios-ssn
 
 _TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
 
 The following vulnerabilities were identified on each target:
 - Target 1
-  - List of
-  - Critical
-  - Vulnerabilities
+  - List of critical vlunerabilites: 
+  - Wordpress Pingback Locator 
+  - Usernmae/Password Login Scanner 
+  - XMLRPC DoS 
+  - GHOST Vulnerability Scanner
+  
 
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
