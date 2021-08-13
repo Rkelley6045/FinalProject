@@ -48,7 +48,7 @@ Traffic to these services should be carefully monitored. To this end, we have im
 `HTTP Request Size Monitor` Alert is implemented as follows:
   - **Metric**: Sum count
   - **Threshold**: Size of http request bytes for all documents above 3500 for the last minute
-  - **Vulnerability Mitigated**: 
+  - **Vulnerability Mitigated**: HTTP request smuggling
   - **Reliability**: High reliabiility
 
 #### Name of Alert 3
