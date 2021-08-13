@@ -11,22 +11,22 @@
 _TODO: Fill out the information below._
 
 The following machines were identified on the network:
-- Name of VM 1: Elk machine
+- Name of VM 1: `Elk machine`
   - **Operating System**: Linux
   - **Purpose**: Elk setup that holds the Kibana dashboards
-  - **IP Address**: 192.168.1.100
-- Name of VM 2: Kali
+  - **IP Address**: `192.168.1.100`
+- Name of VM 2: `Kali`
   - **Operating System**: Linux 2.6.32
   - **Purpose**: Standared Kali Linux machine used for penetration test on Day 1
-  - **IP Address**: 192.168.1.90
-- Name of VM 3: Capstone
+  - **IP Address**: `192.168.1.90`
+- Name of VM 3: `Capstone`
   - **Operating System**: Linux
   - **Purpose**: Testing alerts via the Filebeat and Metricbeat installed on the machine
-  - **IP Address**: 192.168.1.105
-- Name of VM 4: Target 1
+  - **IP Address**: `192.168.1.105`
+- Name of VM 4: `Target 1`
   - **Operating System**: 3.2 - 4.9
   - **Purpose**: Exposes a vulnerable WordPress server
-  - **IP Address**: 192.168.1.110
+  - **IP Address**: `192.168.1.110`
 
 ### Description of Targets
 _TODO: Answer the questions below._
