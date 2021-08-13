@@ -39,24 +39,24 @@ Traffic to these services should be carefully monitored. To this end, we have im
 
 #### Name of Alert 1
 `Excessive HTTP Errors` Alert is implemented as follows:
-  - **Metric**: Count
+  - **Metric**: HTTP response code count
   - **Threshold**: 400 ,and above, response status code for the last 5 minutes
   - **Vulnerability Mitigated**: Unauthorized user access
   - **Reliability**: High reliability 
 
 #### Name of Alert 2
 `HTTP Request Size Monitor` Alert is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Metric**: Sum count
+  - **Threshold**: Size of http request bytes for all documents above 3500 for the last minute
+  - **Vulnerability Mitigated**: 
+  - **Reliability**: High reliabiility
 
 #### Name of Alert 3
 `CPU Usage Monitor` Alert is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Metric**: Max percentage
+  - **Threshold**: Percent of total CPU system process above 0.5 for the last 5 minutes
+  - **Vulnerability Mitigated**: Malicious software and viruses
+  - **Reliability**: High reliability
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
