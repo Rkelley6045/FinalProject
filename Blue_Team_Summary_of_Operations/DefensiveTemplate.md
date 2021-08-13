@@ -39,10 +39,10 @@ Traffic to these services should be carefully monitored. To this end, we have im
 
 #### Name of Alert 1
 `Excessive HTTP Errors` Alert is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Metric**: Count
+  - **Threshold**: 400 ,and above, response status code for the last 5 minutes
+  - **Vulnerability Mitigated**: Unauthorized user access
+  - **Reliability**: High reliability 
 
 #### Name of Alert 2
 `HTTP Request Size Monitor` Alert is implemented as follows:
